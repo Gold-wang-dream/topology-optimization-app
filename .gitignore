@@ -1,0 +1,23 @@
+# 虚拟环境（云端按 requirements.txt 重新安装，不上传）
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Streamlit / 本地运行产物
+.streamlit/secrets.toml
+*.npy
+*.zip
+# 保留源码内的示例 PNG，按需取消下一行注释可忽略导出图片
+# *.png
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
